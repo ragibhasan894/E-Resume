@@ -55,11 +55,11 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     <?= $this->Html->css('creative.min') ?>
 </head>
 
-<body class="home">
+<body id="page-top">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">E-Resume</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -82,21 +82,22 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     </div>
   </nav>
 
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
-          <hr class="divider my-4">
+    <!-- Masthead -->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-white font-weight-bold">Build Your Resume Just In Few Minutes!</h1>
+                    <hr class="divider my-4">
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 font-weight-light mb-5">Tired of MS Word? E-Resume will help you make your resume in a short time.</p>
+                    <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Create Resume Now!</a>-->
+                    <?= $this->Html->link('Create Resume Now!', ['controller' => 'resumes', 'action' => 'create'], ['class' => 'btn btn-primary btn-xl js-scroll-trigger']) ?>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </header>
+    </header>
 
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
@@ -105,7 +106,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">We've got what you need!</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+          <p class="text-white-50 mb-4">E-Resume has everything you need to get your new resume in no time! Free to download, and easy to use themes! No strings attached!</p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
         </div>
       </div>
@@ -243,12 +244,12 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
   </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
+  <!--<section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
-  </section>
+  </section>-->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -263,12 +264,12 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
       <div class="row">
         <div class="col-lg-4 ml-auto text-center">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+          <div>+880 16777 01647</div>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          <a class="d-block" href="mailto:m.hasan@otae.com.bd">m.hasan@otae.com.bd</a>
         </div>
       </div>
     </div>
@@ -277,7 +278,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="small text-center text-muted">Copyright &copy; 2019 - E-Resume</div>
     </div>
   </footer>
 
